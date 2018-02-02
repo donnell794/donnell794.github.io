@@ -1,0 +1,90 @@
+body{
+    background-color: #131417;
+    /*
+    background: linear-gradient(20deg, #121a42, #1b306b 75%, #1b306b 24%, #292929);
+
+    mid-blue: #1b306b
+    dark-blue: #121a42
+    light-ish gray: #6e6968
+    background: linear-gradient(to right bottom, #2f3441 50%, #212531 50%);
+    display:inline-block;
+    padding:0.75em 2.0em;
+    text-align:center;
+    margin:0.25em 0;
+    font-weight:normal;
+    font-family:sans-serif;*/
+}
+
+#floating_body{
+    position: absolute;
+    width: 40%;
+    height: 400px;
+    z-index: 15;
+    top: 30%;
+    left: 40%;
+    margin: -100px 0 0 -150px;
+
+
+    /*background: linear-gradient(to bottom, #121a42, #1b306b 75%, #1b306b 25%, #6e6968);*/
+    background: transparent;
+    border-radius: 2%;
+    border: 1px solid #e7e7e7;
+
+    text-align: center;
+    font-family: 'Arimo';
+}
+
+#floating_body img{
+    background-size: cover;
+    border-radius:50% 50% 50% 50%;
+    width: 200px;
+    height: 200px;
+    vertical-align: top;
+    margin-top: -75px;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+
+    border: 3px solid #e7e7e7;
+    border-radius: 50%;
+}
+
+#content-left{
+    float:left;
+    display: block;
+    width: 30%;
+    height: 100%;
+}
+
+#content-left h1, h4{
+    color: #e7e7e7;
+}
+
+#document, #mail, #linkedin, #github {
+    color: #e7e7e7;
+    cursor: pointer;
+    padding: 0px 5px;
+    text-decoration: none;
+}
+#content-left a:hover, active{
+    color: #292929;
+}
+#content-right{
+    float:right;
+    display: inline;
+    width: 65%;
+    height: 100%;
+    font-size: 20px;
+    text-align: left;
+}
+
+#content-right p{
+    background-color: transparent;
+    margin: 5px;
+    border-radius: 2%;
+    padding: 2px;
+    text-transform: uppercase;
+    top: 33%;
+    position: relative;
+    color: #e7e7e7;
+ }
