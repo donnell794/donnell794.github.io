@@ -1,0 +1,46 @@
+- name: Portfolio Website
+  type: Personal
+  description: First version of my personal web page. Designed and developed from the ground up with a con- scious effort to avoid using superfluous frameworks.
+  used:
+    - thing: HTML
+    - thing: CSS & SCSS
+    - thing: JavaScript
+    - thing: JSON
+    - thing: Django
+    - thing: Jekyll
+
+- name: SoCLI
+  type: Open Source
+  description: Add command-line interface for StackOverflow. Contribution to project includes bug fixes, documentation updates and improving availability to MacOS.
+  used:
+    - thing: Python
+    - thing: MacPorts
+    - thing:: Documentation
+
+- name: NetBuz
+  type: Academic
+  description: A web application project for the Software Engineering course with the purpose of providing long-term, team-based project experience while simulating the software development life cycle. Practiced skills include front-end and back-end development and team communication and collaboration.
+  used:
+    - thing: HTML
+    - thing: CSS
+    - thing: PHP
+    - thing: MySQL
+    - thing: MariaDB
+    - thing: JavaScript
+    - thing: REST API
+
+- name: Speedlogger
+  type: Personal
+  description: A program devised to record a network's download/upload speeds and ping at set intervals, pushing output to a csv; possessed capability to tweet when speed below set threshold.
+  used:
+    - thing: Python
+    - thing: JSON
+    - thing: Twitter API
+
+- name: Emergency Window Release
+  type: Academic
+  description: Collaborative project for UMBC Hack-a-thon 2016. Created an window release device that triggered once ambient temperature reached a dangerous point. Recognized as one of the best projects at the event.
+  used:
+    - thing: C++
+    - thing: Arduino
+    - thing: Git/Github
