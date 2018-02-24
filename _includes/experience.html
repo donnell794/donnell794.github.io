@@ -1,0 +1,32 @@
+<section class="section experience cd-section" id="experience">
+  <div class="section__title">Experience</div>
+  <div class="section__content">
+    <div class="jobs">
+      {% for job in site.data.experience %}
+      <div class="job">
+        <div class="time-place">
+          <div class="job__position"><a href="" target="_blank">{{job.position}}</a></div>
+          <div class="job__time">{{job.time}}</div>
+        </div>
+        <div class="job__company">{{job.company}}</div>
+        <div class="job__location">{{job.location}}</div>
+        <p>{{job.description}}</p>
+        <div class="job__learned">
+          <ul>
+            {% for item in job.learned %}
+            <li class="project__learned__item">{{item.item}}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="project__used">
+          {% for item in job.used %}
+          <span class="project__used__item">{{item.thing}}</span>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
+    <!--<a href="{{site.resume}}" target="_blank" class="arrow-link">View My Resume</a>-->
+  </div>
+</section>
