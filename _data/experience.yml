@@ -1,0 +1,44 @@
+- position: Undergradute Researcher
+  company: UMBC Computer Science and Electrical Egineering Department
+  location: Baltimore, MD
+  time: 08 -- 12 2017
+  description: NSF funded, on-campus research project examining numerical methods in malware analysis to classify malware data; work done will contribute to an academic publication. Developed using python in a team of academic peers, with a specialization in documentation, data representation and data visualization.
+  learned: ~
+  used:
+    - thing: Python
+    - thing: Numpy
+    - thing: TensorFlow
+    - thing: JSON
+    - thing: Data Visualization
+    - thing: Data Classification
+    - thing: Malware Analysis
+    - thing: Version Control
+
+- position: IT Systems Intern
+  company: Montgomery County Public Schools
+  location: Rockville, MD
+  time: 07 2013 -- 08 2016
+  description: Worked academic breaks during the annual technology modernization project as a high ranked intern under the county's senior IT Systems Engineer using and developing skills such as
+  learned:
+    - item: Deadline driven large-scale project experience
+    - item: Communication and team-based work in a professional environment
+    - item: Team-based project experience
+    - item: Team leadership
+  used:
+    - thing: Bash
+    - thing: Altiris
+    - thing: Windows XP/7/8/10
+    - thing: Server Management
+    - thing: Software/Hardware Maintenance
+
+- position: Student Developer
+  company: Next Centery Corporation
+  location: Columbia, MD
+  time: 01 -- 05 2014
+  description: Worked with Next Century in partnership with UMBC’s Programming Languages course (CMSC 331) to rebuild the outdated student advising process moving to a web app from paper and bulletin boards.
+  learned: ~
+  used:
+    - thing: HTML
+    - thing: CSS
+    - thing: MySQL
+    - thing: MariaDB

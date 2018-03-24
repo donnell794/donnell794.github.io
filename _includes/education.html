@@ -1,0 +1,17 @@
+<section class="section education cd-section" id="education">
+  <div class="section__title">Education</div>
+    <div class="section__content">
+      <div class="degrees">
+        {% for degree in site.data.education %}
+        <div class="degree">
+          <div class="time-place">
+            <div class="education__school"><a href="" target="_blank">{{degree.school}}</a></div>
+            <div class="education__time">{{degree.time}}</div>
+          </div>
+          <div class="education__degree">{{degree.degree}}</div>
+          <div class="education_affiliation">{{degree.affiliation}}</div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+</section>

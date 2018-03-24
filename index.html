@@ -1,16 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Home</title>
-<script type="text/javascript">
-    function load_construction(){
-        window.location.href = 'under_construction.html';
-    }
+---
+layout: default
+---
 
-</script>
-</head>
-<body onload="load_construction();">
-
-</body>
-</html>
+<div id="site">
+  {% include switch.html %}
+  {% include intro.html %}
+  {% include background.html %}
+  {% include education.html %}
+  {% include skills.html %}
+  {% include experience.html %}
+  {% include projects.html %}
+  {% include footer.html %}
+</div>

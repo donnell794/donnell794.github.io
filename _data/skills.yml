@@ -1,0 +1,23 @@
+advanced:
+  - item: Python
+
+proficient:
+  - item: Java
+  - item: C/C++
+  - item: PHP
+  - item: SQL
+  - item: HTML
+  - item: CSS
+
+competent:
+  - item: Assembly
+  - item: C#
+  - item: JavaScript
+  - item: AJAX
+  - item: Jekyll
+
+exposure:
+  - item: Ruby
+  - item: JSON
+  - item: Django
+  - item: D3

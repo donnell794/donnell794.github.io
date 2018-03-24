@@ -1,0 +1,39 @@
+<section class="section skillz cd-section" id="skills">
+  <div class="section__title">Skills</div>
+  <div class="section__content">
+    <div class="skills">
+      <div class="skills__level">
+        <div class="skills__label">Advanced</div>
+        <ul>
+          {% for lang in site.data.skills.advanced %}
+          <li class="skills__item">{{lang.item}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="skills__level">
+        <div class="skills__label">Proficient</div>
+        <ul>
+          {% for lang in site.data.skills.proficient %}
+          <li class="skills__item">{{lang.item}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="skills__level">
+        <div class="skills__label">Competent</div>
+        <ul>
+          {% for lang in site.data.skills.competent %}
+          <li class="skills__item">{{lang.item}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="skills__level">
+        <div class="skills__label">Exposure</div>
+        <ul>
+          {% for lang in site.data.skills.exposure %}
+          <li class="skills__item">{{lang.item}}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
