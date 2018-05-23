@@ -13,8 +13,8 @@
       <div class="skills__level">
         <div class="skills__label">Web</div>
         <ul>
-          {% for web in site.data.skills.web %}
-          <li class="skills__item">{{web.item}}</li>
+          {% for lang in site.data.skills.web %}
+          <li class="skills__item">{{lang.item}}</li>
           {% endfor %}
         </ul>
       </div>
@@ -29,8 +29,8 @@
       <div class="skills__level">
         <div class="skills__label">Data/ML</div>
         <ul>
-          {% for data in site.data.skills.data %}
-          <li class="skills__item">{{data.item}}</li>
+          {% for d in site.data.skills.data %}
+          <li class="skills__item">{{d.item}}</li>
           {% endfor %}
         </ul>
       </div>

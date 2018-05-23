@@ -81,6 +81,16 @@ body .section,html .section{display:-webkit-box;display:-ms-flexbox;display:flex
 @media screen and (max-width:630px){.intro{padding:120px 70px}}
 @media screen and (max-width:550px){.intro{padding:120px 50px}}
 @media screen and (max-width:480px){.intro{padding:70px 50px}}
+@media screen and (max-width:1024px){.intro__hello,.intro__tagline{font-size:2.25rem}}
+@media screen and (max-width:768px){.intro__hello,.intro__tagline{font-size:2rem}}
+@media screen and (max-width:550px){.intro__hello,.intro__tagline{font-size:1.75rem}}
+@media screen and (max-width:360px){.intro__hello,.intro__tagline{font-size:1.5rem}}
+@media screen and (max-width:330px){.intro__hello,.intro__tagline{font-size:1.4rem}}.intro__hello .emoji,.intro__tagline .emoji{width:40px;height:40px}
+@media screen and (max-width:1024px){.intro__hello .emoji,.intro__tagline .emoji{width:35px;height:35px}}
+@media screen and (max-width:768px){.intro__hello .emoji,.intro__tagline .emoji{width:30px;height:30px}}
+@media screen and (max-width:360px){.intro__hello .emoji,.intro__tagline .emoji{width:25px;height:25px}}
+@media screen and (max-width:1024px){body #top-button,html #top-button{bottom:20px;right:7px;width:35px}}
+@media screen and (max-width:480px){body #top-button,html #top-button{bottom:15px;right:3px}}
 
 .switch-wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:absolute;top:20px;right:30px}
 @media screen and (max-width:480px){.switch-wrapper{top:10px;right:20px}}
@@ -122,9 +132,9 @@ body .section,html .section{display:-webkit-box;display:-ms-flexbox;display:flex
 
 .skillz .skills{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
 @media screen and (max-width:630px){.skills .skillz{-ms-flex-wrap:wrap;flex-wrap:wrap}}
-@media screen and (max-width:630px){.skillz .skills__category{width:47%;margin-right:5px;margin-bottom:25px}}
-.skillz .skills__category__label{font-weight:700;color:#36363c;text-transform:uppercase}
-.skillz .skills__category__item{margin:3px 0;font-size:.9rem}
+@media screen and (max-width:630px){.skillz .skills__level{width:47%;margin-right:5px;margin-bottom:25px}}
+.skillz .skills__label{font-weight:700;color:#36363c;text-transform:uppercase}
+.skillz .skills__item{margin:3px 0;font-size:.9rem}
 
 
 @media screen and (max-width:1280px){body .section,html .section{padding:100px}}
