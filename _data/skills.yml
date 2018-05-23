@@ -1,23 +1,28 @@
-advanced:
+Languages:
   - item: Python
-
-proficient:
   - item: Java
-  - item: C/C++
-  - item: PHP
-  - item: SQL
-  - item: HTML
-  - item: CSS
-
-competent:
-  - item: Assembly
-  - item: C#
+  - item: C/C++/C#
   - item: JavaScript
-  - item: AJAX
-  - item: Jekyll
-
-exposure:
   - item: Ruby
-  - item: JSON
+
+Web:
+  - item: HTML/HTML5
+  - item: CSS/SCSS
   - item: Django
-  - item: D3
+  - item: Flask
+  - item: Bootstrap
+
+Databases:
+  - item: MySQL
+  - item: PostgreSQL
+  - item: MariaDB
+  - item: SQLite
+  - item: MongoDB
+
+Data/ML:
+
+  - item: TensowFlow
+  - item: Pandas
+  - item: Numpy
+  - item: SciPy
+  - item: SciKit
