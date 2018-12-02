@@ -1,3 +1,11 @@
+- name: Open Oakland: OakCrime
+  type: Open Source
+  description: OakCrime provides access and visualization of data from the Oakland Police Department (OPD) to increase transparency and understanding of crime in Oakland by offering carefully curated data for public consumption and analysis. Focus on webpage and database improvements
+  used:
+    - thing: Python
+    - thing: Django
+    - thing: PostgreSQL
+
 - name: Portfolio Website
   type: Personal
   description: First version of my personal web page. Designed and developed from the ground up with a con- scious effort to avoid using superfluous frameworks.
