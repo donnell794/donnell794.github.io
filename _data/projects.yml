@@ -1,4 +1,4 @@
-- name: Open Oakland: OakCrime
+- name: 'Open Oakland: OakCrime'
   type:        Open Source
   description: OakCrime provides access and visualization of data from the Oakland Police Department (OPD) to increase transparency and understanding of crime in Oakland by offering carefully curated data for public consumption and analysis. Focus on webpage and database improvements
   used:
