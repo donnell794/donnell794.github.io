@@ -5,6 +5,9 @@
     - thing:   Python
     - thing:   Django
     - thing:   PostgreSQL
+    - thing:   PostGIS
+    - thing:   Docker
+    - thing:   AWS
 
 - name:        Portfolio Website
   type:        Personal
