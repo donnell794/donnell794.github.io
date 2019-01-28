@@ -8,6 +8,7 @@
     - thing:   PostGIS
     - thing:   Docker
     - thing:   AWS
+  link:        "https://github.com/openoakland/OakCrime"
 
 - name:        Portfolio Website
   type:        Personal
@@ -19,6 +20,7 @@
     - thing:   JSON
     - thing:   Django
     - thing:   Jekyll
+  link:        "javascript:;"
 
 - name:        SoCLI
   type:        Open Source
@@ -27,6 +29,7 @@
     - thing:   Python
     - thing:   MacPorts
     - thing:   Documentation
+  link:        "https://github.com/donnell794/socli"
 
 - name:        NetBuz
   type:        Academic
@@ -39,6 +42,7 @@
     - thing:   MariaDB
     - thing:   JavaScript
     - thing:   REST API
+  link:        "javascript:;"
 
 - name:        Speedlogger
   type:        Personal
@@ -47,6 +51,7 @@
     - thing:   Python
     - thing:   JSON
     - thing:   Twitter API
+  link:        "https://github.com/donnell794/speedtestlogger"
 
 - name:        Emergency Window Release
   type:        Academic
@@ -55,3 +60,4 @@
     - thing:   C++
     - thing:   Arduino
     - thing:   Git/Github
+  link:        "javascript:;"
