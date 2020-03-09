@@ -1,7 +1,21 @@
+- position:    Software Engineer
+  company:     Pivot Bio
+  location:    Berkeley, CA
+  time:        2019 --
+  description: Build and maintain a REST API and applications by our data scientists to significantly improve data consistency, availability, and ingestion
+  learned:     ~
+  used:
+    - thing:   Python
+    - thing:   Django
+    - thing:   PostgreSQL
+    - thing:   JavaScript/jQuery
+    - thing:   REST API
+    - thing:   Ansible/AWS
+
 - position:    Full-stack Developer
   company:     HomeBase, The Center for Common Concerns
   location:    San Francisco, CA
-  time:        2018 --
+  time:        2018 -- 2019
   description: Provided development, maintenance and support of HomeBase web applications. Assist project manager in the execution of the management plan for assigned project, including 6-month HB website rebuild
   learned:     ~
   used:

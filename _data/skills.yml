@@ -1,23 +1,14 @@
 languages:
   - item:   Python
   - item:   Java
-  - item:   JavaScript
-  - item:   C++
+  - item:   JavaScript/jQuery
 
 web:
   - item:   HTML/HTML5
   - item:   CSS/SCSS
   - item:   Django
-  - item:   Flask
 
 databases:
   - item:   MySQL
   - item:   PostgreSQL
-  - item:   MariaDB
   - item:   MongoDB
-
-data:
-  - item:   TensowFlow
-  - item:   Pandas
-  - item:   SciPy
-  - item:   SciKit
